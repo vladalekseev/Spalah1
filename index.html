@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+/*
+    var arr = ["some text",1,false,undefined,null,{}];
+
+    for (var i = 0;i<arr.length;i++) {
+        console.log(typeof arr[i]);
+    }
+*/
+/*
+    var arr = [2,1,-10,77,100,4];
+    var sum=0;
+
+    for(var i =0; i<arr.length ; i++){
+        sum = sum + arr[i];
+
+}
+    console.log(sum);
+*/
+/*
+var arr = [2,1,-10,77,100,4];
+var sum=0;
+var sum2=0;
+
+for(var i =0; i<arr.length ; i++){
+    if(arr[i] % 2 == 0 ) {
+        sum = sum + arr[i];
+    }
+
+    else if (arr[i]==77){
+        console.log("print " + arr[i]);
+    }
+
+    else{
+        sum2+=arr[i];
+    }
+}
+console.log(sum , sum2);
+*/
+/*
+var arr = [2,1,"string",77,"string2",4];
+var sum=0;
+
+for(var i =0; i<arr.length ; i++){
+    if(arr[i] % 2 == 1 ) {
+        sum = sum + arr[i];
+    }
+
+    else if (isNaN(arr[i])){
+        console.log(arr[i] + " is not a number");
+    }
+}
+console.log(sum);
+*/
+/*
+var arr = [1,2,3,4,5,6];
+var i =0;
+
+while(i < arr.length) {
+    console.log(arr[i]);
+    i++;
+}
+*/
+
+/*
+
+var arr = [1,2,3,4,5,6];
+var i =0;
+
+while(arr[i] < 6) {
+    if (arr[i] == 4)  break;//continue
+
+    console.log(arr[i]);
+    i++;
+}
+*/
+
+/*
+var arr = [1,2,3,4,5,6];
+
+var a = 7;
+
+switch(a) {
+    case 7:console.log("its " + a );break;
+    case 6:console.log("its not " + a );break;
+    default:console.log("wtf");break;
+
+}
+
+*/
+
+/*
+var animals = ["dog","cat","tiger","bear","cow"];
+
+    for(var i=0;i<animals.length;i++) {
+
+        switch(animals[i]) {
+            case "dog":console.log(animals[i] + " is loyal" );break;
+            case "cat":console.log(animals[i] + " is lazy" );break;
+            case "tiger":console.log(animals[i] + " is angry" );break;
+            case "bear":console.log(animals[i] + " always sleep" );break;
+            case "cow":console.log(animals[i] + " says mow");break;
+            default:console.log("wtf");break;
+        }
+    }
+*/
+
+/*
+                //МЕТОДЫ МАССИВА
+
+var animals = ["dog","cat","tiger","bear","cow"];
+
+   animals.push('wolf'); //добавить в конец
+   animals.unshift('monkey'); //добавить в начало
+
+   animals.pop() ;  //удаляем последний эл массива
+   var a = animals.shift(); //удаляем 1й эл с массива
+
+    console.log(animals,a);
+*/
+
+
+
+            //ОБЬЕКТЫ
+
+/*
+var obj={};
+var obj2= new Object();
+
+
+var obj = {
+    name : "Vlad",
+    "lastname" : "Alekseev",
+    fullname: function() {
+        return this.name + " " + this.lastname;
+    }
+};
+
+console.log(obj.fullname());
+*/
+/*
+        //ФУНКЦИЯ
+var a = 6,
+    b = 7,
+    c = 8;
+
+ function sum(arg1,arg2) {
+     console.log(arguments); //выводит все заданные аргументы
+     var mySum = arg1 + arg2;
+     console.log(mySum);
+     return mySum;
+ }
+
+ sum("asd","sad", 7, 6);
+*/
+
+/*
+function sum() {
+    for (var i = 0; i < arguments.length; i++) {
+        if (arguments[i] % 3 == 0) {
+            var argss = arguments[i];
+            console.log(argss);
+        }
+    }
+}
+sum(1,2,3,6,8,9,4,12,15,21,24);
+*/
+
+ массив от 1го до 100
+ массив с четными числами
+ массив с нечетными числами
+
+
+</script>
+</body>
+</html>
