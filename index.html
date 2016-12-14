@@ -179,21 +179,32 @@ sum(1,2,3,6,8,9,4,12,15,21,24);
  //массив с четными числами
  //массив с нечетными числами
 
-var arr1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-var arr2 = [];
-var arr3 = [];
-    for(var i=0 ; i<arr1.length; i++) {
-        if (arr1[i]%2 == 0 ){
-            arr2.push(arr1[i]) ;
-        }
-        else if (arr1[i]%2 != 0) {
-            arr3.push(arr1[i]) ;
-        }
+var arr = [];
+var arrEven = [];
+var arrOdd = [];
+
+
+function randoming() {
+    var randNum = Math.round(Math.random()*100);
+    return randNum;
+}
+
+    for(var j=0;j<100;j++) {
+        arr[j] = randoming() ;
     }
 
-    console.log(arr1);
-    console.log(arr2);
-    console.log(arr3);
+
+    for(var i=0 ; i<arr.length; i++) {
+        if (arr[i]%2 == 0 ){
+            arrEven.push(arr[i]) ;
+        }
+        else if (arr[i]%2 != 0) {
+            arrOdd.push(arr[i]) ;
+        }
+    }
+    console.log(arr);
+    console.log(arrEven);
+    console.log(arrOdd);
 
 
 </script>
